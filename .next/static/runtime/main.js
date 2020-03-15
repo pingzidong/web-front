@@ -936,7 +936,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/xiaoping_9998126.com/Desktop/web/web-front/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/xiaoping_9998126.com/Desktop/web-front/.next");
       return error;
     }
   };
